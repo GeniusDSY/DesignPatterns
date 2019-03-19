@@ -10,6 +10,12 @@ Simple Factory Pattern
 Factory Method Pattern
 - 抽象工厂模式
 Abstract Factory
+- 建造模式
+Builder
+-原型模式
+Prototype
+-单例模式
+Singleton
 
 ## 结构性模式
 
