@@ -8,7 +8,7 @@ import creational_patterns.abstract_factory_pattern.production.interfaces.IDepar
  * @date :2019/3/20 17:09
  * @desc :
  */
-public class MySqldepartment extends IDepartment {
+public class MySqldepartment implements IDepartment {
     /**
      * 插入数据表
      *

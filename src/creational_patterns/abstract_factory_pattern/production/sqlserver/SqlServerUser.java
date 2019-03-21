@@ -8,7 +8,7 @@ import creational_patterns.abstract_factory_pattern.production.interfaces.IUser;
  * @date :2019/3/20 16:11
  * @desc : SqlServer数据库操作User表
  */
-public class SqlServerUser extends IUser {
+public class SqlServerUser implements IUser {
     /**
      * 插入数据表
      *

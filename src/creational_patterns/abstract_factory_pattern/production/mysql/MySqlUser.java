@@ -8,7 +8,7 @@ import creational_patterns.abstract_factory_pattern.production.interfaces.IUser;
  * @date :2019/3/20 17:08
  * @desc :
  */
-public class MySqlUser extends IUser {
+public class MySqlUser implements IUser {
     /**
      * 插入数据表
      *

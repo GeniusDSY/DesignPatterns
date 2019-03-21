@@ -8,7 +8,7 @@ import creational_patterns.abstract_factory_pattern.production.interfaces.IUser;
  * @date :2019/3/20 17:06
  * @desc : 生成MySql连接的Mysql工厂
  */
-public class MySqlFactory extends IFactory {
+public class MySqlFactory implements IFactory {
     /**
      * 生成一个IUser产品
      *

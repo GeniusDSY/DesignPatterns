@@ -8,7 +8,7 @@ import creational_patterns.abstract_factory_pattern.production.interfaces.IUser;
  * @date :2019/3/20 16:12
  * @desc : Access操作User表
  */
-public class AccessUser extends IUser {
+public class AccessUser implements IUser {
     /**
      * 插入数据表
      *

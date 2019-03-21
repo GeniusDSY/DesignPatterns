@@ -10,7 +10,7 @@ import creational_patterns.abstract_factory_pattern.production.sqlserver.SqlServ
  * @date :2019/3/20 16:33
  * @desc : 创建SqlServer连接产品
  */
-public class SqlServerFactory extends IFactory {
+public class SqlServerFactory implements IFactory {
     /**
      * 生成一个SqlServerUser产品
      *

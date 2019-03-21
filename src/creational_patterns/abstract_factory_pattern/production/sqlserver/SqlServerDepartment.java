@@ -8,7 +8,7 @@ import creational_patterns.abstract_factory_pattern.production.interfaces.IDepar
  * @date :2019/3/20 16:04
  * @desc : SqlServer操作Department表
  */
-public class SqlServerDepartment extends IDepartment {
+public class SqlServerDepartment implements IDepartment {
     /**
      * 插入SqlServer数据表
      *

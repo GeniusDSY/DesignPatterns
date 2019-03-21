@@ -10,7 +10,7 @@ import creational_patterns.abstract_factory_pattern.production.interfaces.IUser;
  * @date :2019/3/20 16:34
  * @desc : 创建Access连接产品
  */
-public class AccessFactory extends IFactory {
+public class AccessFactory implements IFactory {
     /**
      * 生成一个AccessUser产品
      *

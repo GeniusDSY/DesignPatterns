@@ -8,7 +8,7 @@ import creational_patterns.abstract_factory_pattern.production.interfaces.IDepar
  * @date :2019/3/20 16:05
  * @desc : Access操作Department表
  */
-public class AccessDepartment extends IDepartment {
+public class AccessDepartment implements IDepartment {
     /**
      * 插入数据表
      *
